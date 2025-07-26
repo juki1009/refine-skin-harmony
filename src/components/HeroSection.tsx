@@ -1,14 +1,11 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-salon.jpg";
-
 const HeroSection = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      >
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: `url(${heroImage})`
+    }}>
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/85 to-background/75" />
       </div>
       
@@ -20,9 +17,7 @@ const HeroSection = () => {
             <span className="bg-gradient-hero bg-clip-text text-transparent">自信</span>に。
           </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-4 font-light">
-            男女対応の都度払い脱毛サロン <span className="font-semibold text-primary">Refine</span>
-          </p>
+          
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             完全個室でプライベートな空間。初めての方も安心のサポート。
@@ -59,8 +54,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;

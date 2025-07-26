@@ -14,7 +14,7 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold font-lato mb-6 leading-tight">
             <span className="text-primary">清潔感</span>があなたの
-            <span className="bg-gradient-hero bg-clip-text text-transparent">自信</span>に
+            <span className="bg-gradient-hero bg-clip-text text-transparent">自信</span>に。
           </h1>
           
           
